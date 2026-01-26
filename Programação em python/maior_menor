@@ -1,0 +1,17 @@
+# Maior e menor valor
+# Leia uma quantidade definida de números e mostre o maior e o menor, sem usar min ou max.
+print("Hello World!")
+for numero in range (5):
+numero = int(input("Digite o primeiro numero:\n"))
+numeros.append(numero)
+    numeros = [0]
+maior_valor = numeros [0]
+menor_valor = numeros [0]
+
+for numero in numeros:
+    if numero > maior_valor:
+        maior_valor = numero
+    if numero < menor_valor:
+        menor_valor = numero
+print(f"A nota de maior valor é: {maior_valor}")
+print(f"A nota de menor valor é: {menor_valor}")
