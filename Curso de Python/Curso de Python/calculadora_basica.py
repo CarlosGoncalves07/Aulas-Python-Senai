@@ -2,11 +2,38 @@ print("Hello, World!")
 print("Bem Vindo(a) ao NovoTech Soluções em Software!")
 print("Digite os números que deseja realizar a operação matematica e em seguida escolha a função:")
 
-def somar(a,b):
-    return(a+b)
+#def somar(a,b):
+#    return(a+b)
+def somar():
+    while True:
+        a = input("Digite o primeiro número:\n")
+        b = input("Digite o segundo número:\n  ")
+        try:
+            numero_a = int(a)
+            numero_b = int(b)
+            return(numero_a + numero_b)
+        except:
+            print("Entrada inválida. Por favor digite um número:\n")
 
-def subtrair(a,b):
-    return(a-b)
+
+resultado = somar()
+print(resultado)
+
+
+
+
+
+def subtrair():
+    while True:
+        a = input("Digite o primeiro número:\n")
+        b = input("Digite o segundo número")
+        try:
+            numero_a = int(a)
+            numero_b = int(b)
+            return(numero_a-numero_b)
+        except:
+            print("Entrada inválida. Por favor digite um número válido:\n")
+resultado = subtrair()
 
 def multiplicar(a,b):
     return(a*b)
@@ -33,3 +60,22 @@ elif "0":
     print("Escolha a operação: 1-Somar/2-Subtrair/3-Multiplicar/4-Dividir/0-Voltar ao menu anterior")
 else:
     print("Opção inválida!")
+
+
+
+
+
+def somar():
+    while True:
+        a = input("Digite o primeiro número:\n")
+        b = input("Digite o segundo número:\n  ")
+        try:
+            numero_a = int(a)
+            numero_b = int(b)
+            return(numero_a + numero_b)
+        except:
+            print("Entrada inválida. Por favor digite um número:\n")
+
+
+resultado = somar()
+print(resultado)
