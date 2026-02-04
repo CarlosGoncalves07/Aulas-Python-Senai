@@ -1,6 +1,6 @@
-import streamlit as st
+#import streamlit as st
 
-st.title("Calculadora Simples🧮")
+#st.title("Calculadora Simples🧮")
 # Botão do Windows + . abre icones
 #ctrl + aspas"Abre o terminal > No terminal > pip install streamlit > python -m streamlit run .\app_streamlit.py
 #Local URL: http://localhost:8501
